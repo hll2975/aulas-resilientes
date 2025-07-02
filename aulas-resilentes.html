@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto: Aulas Resilientes</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        
+        h1 {
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+            margin-top: 30px;
+            background-color: #f0f8ff;
+        }
+        
+        .subtitle {
+            text-align: center;
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: -20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        pre {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        
+        code {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f5f5f5;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        
+        .highlight {
+            background-color: #fffde7;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .color-palette {
+            display: flex;
+            margin: 15px 0;
+        }
+        
+        .color-box {
+            width: 80px;
+            height: 80px;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .quote {
+            font-style: italic;
+            border-left: 3px solid #3498db;
+            padding-left: 15px;
+            margin: 20px 0;
+            color: #555;
+        }
+        
+        .example-box {
+            background-color: #e8f4f8;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Proyecto: Aulas Resilientes</h1>
+    <p class="subtitle">Sistema Educativo Offline/Online para Zonas Rurales</p>
+    
+    <div class="section">
+        <h2>🌿 Contexto Local</h2>
+        <p><strong>La región</strong> es una zona con:</p>
+        <ul>
+            <li><strong>Frecuentes cortes de energía e internet</strong>.</li>
+            <li><strong>Flora y fauna autóctona</strong> (caldenes, ñandúes, vizcachas) que inspiran el diseño.</li>
+            <li><strong>Comunidad educativa unida</strong> (docentes, padres y alumnos colaborativos).</li>
+        </ul>
+        <p><strong>Objetivo</strong>: Crear una plataforma <span class="highlight">económica, offline-first y escalable</span> que funcione en cualquier dispositivo.</p>
+    </div>
+    
+    <div class="section">
+        <h2>📌 Características Clave</h2>
+        
+        <h3>1. Para Docentes</h3>
+        <ul>
+            <li>📝 <strong>Crear tareas offline</strong> y sincronizarlas luego.</li>
+            <li>👥 <strong>Chat colaborativo</strong> por materia/grado.</li>
+            <li>📊 <strong>Registrar asistencia</strong> sin internet.</li>
+        </ul>
+        
+        <h3>2. Para Alumnos</h3>
+        <ul>
+            <li>📚 <strong>Acceder a materiales</strong> (videos, PDFs, ejercicios) sin conexión.</li>
+            <li>📱 <strong>Enviar tareas</strong> desde su celular (fotos, audio, texto).</li>
+        </ul>
+        
+        <h3>3. Para Administrativos</h3>
+        <ul>
+            <li>📋 <strong>Generar reportes</strong> en PDF automáticos.</li>
+            <li>📡 <strong>Sincronizar datos</strong> entre escuelas vía USB/red local.</li>
+        </ul>
+        
+        <h3>4. Para Padres (Opcional)</h3>
+        <ul>
+            <li>👀 <strong>Ver calificaciones</strong> guardadas offline.</li>
+            <li>🔔 <strong>Recibir notificaciones</strong> vía SMS/Telegram.</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>🛠️ Tecnología Utilizada</h2>
+        <table>
+            <tr>
+                <th>Componente</th>
+                <th>Herramienta</th>
+                <th>Costo (ARS)</th>
+            </tr>
+            <tr>
+                <td><strong>Frontend</strong></td>
+                <td>PWA (HTML5 + JavaScript)</td>
+                <td>$0</td>
+            </tr>
+            <tr>
+                <td><strong>Backend</strong></td>
+                <td>Python + Flask + SQLite</td>
+                <td>$0</td>
+            </tr>
+            <tr>
+                <td><strong>Sincronización</strong></td>
+                <td>Syncthing (red local)</td>
+                <td>$0</td>
+            </tr>
+            <tr>
+                <td><strong>Videollamadas</strong></td>
+                <td>Jitsi Meet (autoalojado)</td>
+                <td>$0</td>
+            </tr>
+            <tr>
+                <td><strong>Hosting</strong></td>
+                <td>PC vieja o Raspberry Pi</td>
+                <td>$80.000</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="section">
+        <h2>📂 Estructura del Proyecto</h2>
+        <pre>
+/aulas-resilientes/  
+│  
+├── /backend/                  # Lógica del servidor  
+│   ├── app.py                 # API Flask  
+│   └── database.db            # SQLite  
+│  
+├── /frontend/                 # Interfaz web  
+│   ├── index.html             # Página principal  
+│   ├── styles.css             # Diseño con imágenes locales  
+│   └── scripts.js             # Lógica offline  
+│  
+├── /sync/                     # Configuración Syncthing  
+│   └── sync_config.json       # Carpetas compartidas  
+│  
+└── README.md                  # Guía paso a paso</pre>
+    </div>
+    
+    <div class="section">
+        <h2>🌄 Diseño con Identidad Local</h2>
+        <p><strong>Paleta de colores</strong>:</p>
+        <div class="color-palette">
+            <div class="color-box" style="background-color: #8B5A2B;">Tierra</div>
+            <div class="color-box" style="background-color: #4A7C59;">Pasto</div>
+            <div class="color-box" style="background-color: #87CEEB;">Cielo</div>
+        </div>
+        
+        <p><strong>Imágenes incluidas</strong>:</p>
+        <ul>
+            <li>Fondo de login: <em>Atardecer en la llanura</em>.</li>
+            <li>Íconos: <em>Árboles autóctonos, fauna local, cultivos</em>.</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>💻 Código Clave</h2>
+        
+        <h3>1. Backend (Python + Flask)</h3>
+        <p><strong><code>app.py</code></strong></p>
+        <pre>from flask import Flask, request, jsonify
+import sqlite3
+from datetime import datetime
+
+app = Flask(__name__)
+
+# Base de datos local
+def get_db():
+    return sqlite3.connect('database.db')
+
+# Ruta para subir tareas offline
+@app.route('/upload_task', methods=['POST'])
+def upload_task():
+    data = request.json
+    conn = get_db()
+    conn.execute(
+        "INSERT INTO tasks (student_id, content) VALUES (?, ?)",
+        (data['student_id'], data['content'])
+    )
+    conn.commit()
+    return jsonify({"status": "success"})
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)</pre>
+        
+        <h3>2. Frontend (PWA - JavaScript)</h3>
+        <p><strong><code>scripts.js</code></strong></p>
+        <pre>// Guardar tareas offline
+function saveTask(task) {
+    if (!navigator.onLine) {
+        localStorage.setItem('pending_tasks', JSON.stringify(task));
+        alert("Tarea guardada para sincronizar luego.");
+    } else {
+        sendToServer(task);
+    }
+}
+
+// Sincronizar al reconectar
+window.addEventListener('online', () => {
+    const tasks = JSON.parse(localStorage.getItem('pending_tasks'));
+    if (tasks) sendToServer(tasks);
+});</pre>
+    </div>
+    
+    <div class="section">
+        <h2>📊 Presupuesto Detallado</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Costo (ARS)</th>
+                <th>Notas</th>
+            </tr>
+            <tr>
+                <td>Raspberry Pi 4</td>
+                <td>$120.000</td>
+                <td>Servidor local.</td>
+            </tr>
+            <tr>
+                <td>USBs 32GB (x10)</td>
+                <td>$30.000</td>
+                <td>Distribución de contenido.</td>
+            </tr>
+            <tr>
+                <td>Cartelería</td>
+                <td>$15.000</td>
+                <td>Afiches tutoriales.</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>$165.000</strong></td>
+                <td><em>(≈ USD 150 al cambio informal).</em></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="section">
+        <h2>🚀 Implementación en 3 Pasos</h2>
+        <ol>
+            <li><strong>Semana 1</strong>: Instalar el servidor en una PC vieja.</li>
+            <li><strong>Semana 2</strong>: Capacitar a docentes (2 talleres prácticos).</li>
+            <li><strong>Mes 1</strong>: Prueba piloto en una escuela local.</li>
+        </ol>
+    </div>
+    
+    <div class="section">
+        <h2>✅ Beneficios</h2>
+        <p>✔ <strong>100% offline</strong>: Funciona sin internet.</p>
+        <p>✔ <strong>Económico</strong>: Menos de $200.000 ARS iniciales.</p>
+        <p>✔ <strong>Escalable</strong>: Se puede replicar en otras escuelas rurales.</p>
+    </div>
+    
+    <div class="section">
+        <h2>📌 Ejemplo de Uso</h2>
+        <div class="example-box">
+            <pre># En una escuela sin internet:
+docente = Docente(nombre="María")
+docente.subir_tarea_offline("Matemática - Ejercicios página 45")
+alumno = Alumno(nombre="Juan")
+alumno.enviar_tarea(foto="ejercicios_resueltos.jpg")</pre>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>🌐 Acceso para Padres (Opcional)</h2>
+        <p>Si hay internet móvil:</p>
+        <ul>
+            <li><strong>Web app</strong>: <code>http://aulasresilientes.local.edu.ar</code></li>
+            <li><strong>Notificaciones</strong>: SMS gratis con Twilio o Telegram Bot.</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>¿Listos para empezar?</h2>
+        <p>📥 <a href="https://github.com/aulas-resilientes">Descargar código completo</a></p>
+        <p>📞 Contacto: <code>equipo@aulasresilientes.ar</code></p>
+        
+        <div class="quote">
+            "La educación no se detiene, incluso cuando el internet sí."
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <p><em>Interfaz inspirada en el entorno local.</em></p>
+        </div>
+    </div>
+</body>
+</html>
