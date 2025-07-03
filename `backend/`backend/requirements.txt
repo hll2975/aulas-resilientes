@@ -2,3 +2,11 @@ Flask==2.0.1
 Flask-SQLAlchemy==2.5.1
 Flask-Migrate==3.1.0
 python-dotenv==0.19.0
+Flask-Talisman==1.0.0  # HTTPS y headers de seguridad
+Flask-SeaSurf==1.1.1  # Protección CSRF
+bcrypt==3.2.0  # Hashing de contraseñas
+python-jose==3.3.0  # JWT
+sqlparse==0.4.2  # Detección de inyección SQLFlask==2.0.1
+Flask-SQLAlchemy==2.5.1
+Flask-Migrate==3.1.0
+python-dotenv==0.19.0
