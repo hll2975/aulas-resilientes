@@ -1,4 +1,4 @@
-# Aulas Resilientes Guatraché
+# Aulas Resilientes 
 
 ![Badge de Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow)
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-green)
