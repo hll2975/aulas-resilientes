@@ -46,4 +46,4 @@ Abre un Pull Request
 📄 Licencia
 Distribuido bajo licencia MIT. Ver LICENSE para más información.
 
-<div align="center"> Hecho con ❤️ para comunidades educativas rurales </div> ```
+        Hecho con ❤️ para comunidades educativas rurales
