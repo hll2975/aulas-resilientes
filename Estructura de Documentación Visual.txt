@@ -1,0 +1,14 @@
+docs/
+│
+├── /architecture/
+│   ├── system-diagram.drawio   # Diagrama de arquitectura
+│   └── database-schema.png     # Esquema de base de datos
+│
+├── /screenshots/
+│   ├── teacher-view.png        # Vista docente
+│   ├── student-view.png        # Vista estudiante
+│   └── admin-view.png          # Vista administrativa
+│
+└── /workflows/
+    ├── offline-sync-flow.md    # Flujo de sincronización
+    └── assignment-process.png  # Diagrama de proceso
