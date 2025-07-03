@@ -29,3 +29,21 @@ Sistema educativo continuo para garantizar la enseñanza en situaciones de emerg
 ```bash
 git clone https://github.com/tu-usuario/aulas-resilientes.git
 cd aulas-resilientes
+🛠 Configuración para Raspberry Pi
+Ver guía detallada en deployment/raspberry_pi/README.md
+
+🤝 Cómo contribuir
+Haz fork del proyecto
+
+Crea una rama (git checkout -b feature/nueva-funcionalidad)
+
+Haz commit de tus cambios (git commit -m 'Añade nueva funcionalidad')
+
+Haz push a la rama (git push origin feature/nueva-funcionalidad)
+
+Abre un Pull Request
+
+📄 Licencia
+Distribuido bajo licencia MIT. Ver LICENSE para más información.
+
+<div align="center"> Hecho con ❤️ para comunidades educativas rurales </div> ```
