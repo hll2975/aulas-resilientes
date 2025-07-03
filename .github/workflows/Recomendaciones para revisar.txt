@@ -1,0 +1,35 @@
+Recomendaciones a tener en cuenta 
+
+Wiki del Repositorio:
+
+Crear secciones para:
+
+"Configuración avanzada"
+
+"Preguntas frecuentes"
+
+"Casos de éxito"
+
+Templates:
+
+Añadir templates para:
+
+Reporte de bugs
+
+Solicitud de características
+
+Mejoras de documentación
+
+Badges:
+
+markdown
+![Python](https://img.shields.io/badge/python-3.8+-blue)
+![Flask](https://img.shields.io/badge/flask-2.0+-red)
+![Coverage](https://img.shields.io/badge/coverage-85%25-green)
+Changelog:
+
+Mantener un CHANGELOG.md con versionamiento semántico
+
+Demo Online:
+
+Incluir en el README un link a una demo funcional (si está disponible)
